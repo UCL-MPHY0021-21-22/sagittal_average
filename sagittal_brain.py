@@ -3,7 +3,7 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import numpy as np
 
 
-def run_averages(file_input='brain_sample.csv', file_output='brain_average.csv'):
+def run_averages(file_input='brain_sample.csv', file_output='output/brain_average.csv'):
     """
     Calculates the average through the coronal planes
     The input file should has as many columns as coronal planes
