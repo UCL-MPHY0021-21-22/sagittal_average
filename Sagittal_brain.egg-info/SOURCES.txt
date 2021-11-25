@@ -1,0 +1,7 @@
+setup.py
+Sagittal_brain.egg-info/PKG-INFO
+Sagittal_brain.egg-info/SOURCES.txt
+Sagittal_brain.egg-info/dependency_links.txt
+Sagittal_brain.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sagittal_brain.py
