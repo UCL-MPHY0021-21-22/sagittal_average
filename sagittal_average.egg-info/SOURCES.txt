@@ -3,3 +3,5 @@ sagittal_average.egg-info/PKG-INFO
 sagittal_average.egg-info/SOURCES.txt
 sagittal_average.egg-info/dependency_links.txt
 sagittal_average.egg-info/top_level.txt
+tests/__init__.py
+tests/test_something.py
