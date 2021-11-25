@@ -32,3 +32,5 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
 
     run_averages(arguments.file_input, arguments.file_output)
+
+#run_averages(file_input='brain_sample.csv', file_output='brain_average.csv')
