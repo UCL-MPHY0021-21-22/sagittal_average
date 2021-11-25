@@ -22,7 +22,7 @@ def run_averages(file_input='brain_sample.csv', file_output='brain_average.csv')
     np.savetxt(file_output, averages, fmt='%.1f', delimiter=',')
 
 
-if __name__ == "__main__":
+if __name__ == "__init__":
     parser = ArgumentParser(description="Calculates the average for each sagittal-horizontal plane.",
                             formatter_class=ArgumentDefaultsHelpFormatter)
     parser.add_argument('file_input', nargs='?', default="brain_sample.csv",
